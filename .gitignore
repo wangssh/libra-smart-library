@@ -1,0 +1,45 @@
+# ---- Keil MDK ----
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.uvguix.*
+*.uvoptx
+*.scvd
+*.dep
+
+# ---- STM32CubeMX / ESP-IDF ----
+build/
+sdkconfig
+sdkconfig.old
+*.bin
+*.hex
+*.elf
+*.map
+*.axf
+dependencies.lock
+managed_components/
+
+# ---- 编译产物 ----
+*.o
+*.a
+*.so
+*.exe
+*.obj
+test_proto
+vendora_server
+
+# ---- IDE / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- 日志 ----
+*.log
+*.csv
+!docs/**/*.csv
